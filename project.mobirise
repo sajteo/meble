@@ -861,7 +861,7 @@
               }
             },
             ".mbr-section-title": {
-              "color": "#232323"
+              "color": "#000000"
             }
           },
           "_name": "header1",
