@@ -64,8 +64,8 @@
     "index.html": {
       "settings": {
         "main": true,
-        "title": "Home",
-        "meta_descr": "",
+        "title": "Sajteo - śląskie meble na wymiar",
+        "meta_descr": "Najlepsze śląskie meble na wymiar. Kuchnie na wymiar, zabudowy wnęk, garderoby, szafy z drzwiami przesuwnymi. Wodzisław Śląski, Rybnik, Gliwice, Katowice.",
         "header_custom": "",
         "footer_custom": "",
         "html_before": ""
