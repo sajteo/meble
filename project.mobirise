@@ -49,7 +49,16 @@
     ],
     "uniqCompNum": 32,
     "versionPublish": "4.10.3",
-    "screenshot": "screenshot.png"
+    "screenshot": "screenshot.png",
+    "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
+    "robotsSwitcher": "on",
+    "siteUrl": "https://www.sajteo.com",
+    "sitemapSwitcherAuto": "",
+    "favicon": "",
+    "noImageResize": "",
+    "google-analytics": "<amp-analytics type=\"googleanalytics\" id=\"analytics1\">     \r\n<script type=\"application/json\">\r\n{\r\n  \"vars\": {\r\n    \"account\": \"UA-169431738-1\"\r\n  },\r\n  \"triggers\": {\r\n    \"trackPageview\": {\r\n      \"on\": \"visible\",\r\n      \"request\": \"pageview\"\r\n    }\r\n  }\r\n}\r\n</script>\r\n</amp-analytics>",
+    "sitemapSwitcher": "on",
+    "сanonical-url": "https://www.sajteo.com"
   },
   "pages": {
     "index.html": {
