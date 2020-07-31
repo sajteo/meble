@@ -582,15 +582,8 @@ body{font-family: Roboto;}blockquote{border-color: #b69e59;}.display-1{font-fami
 
         <div class="mbr-row mbr-justify-content-center">
             <div class="mbr-col-lg-6  mbr-col-md-10 " data-form-type="formoid">
-                <form class="mbr-form" method="post" target="_top" action-xhr="https://formoid.net/api/amp-form/push" action="https://api.sajteo.com/formularz">
-                    <div class="mbr-row">
-                      <div submit-success="" class="mbr-col-sm-12 mbr-col-md-12">
-                          
-                      </div>
-                      <div submit-error="" class="mbr-col-sm-12 mbr-col-md-12">
-                          
-                      </div>
-                    </div>
+                <form class="mbr-form" method="post" target="_top" action-xhr="https://api.sajteo.com/formularz" action="https://api.sajteo.com/formularz">
+                    
                     <div class="mbr-row">
                         <div class="field mbr-col-sm-12 mbr-col-md-4 mbr-col-lg-4" data-for="form[data][1][1]">
                             <input type="hidden" name="form[data][0][0]" value="Name" id="form[data][1][0]-contacts2-1">
@@ -609,6 +602,18 @@ body{font-family: Roboto;}blockquote{border-color: #b69e59;}.display-1{font-fami
                             <textarea class="field-input" name="form[data][3][1]" rows="7" data-form-field="Message" placeholder="Tu wpisz swoje zapytanie..." id="form[data][3][1]-contacts2-1"></textarea>
                         </div>
                         <div class="input-group-btn field mbr-col-sm-12 mbr-col-md-12 mbr-col-lg-12"><button type="submit" class="btn btn-primary btn-form display-4">WYŚLIJ</button></div>
+                    </div>
+					<div class="mbr-row">
+                      <div submit-success="" class="mbr-col-sm-12 mbr-col-md-12">
+                          <div style="color:#b69e59; background-color:white; font-family:Lato">
+						  Wiadomość została pomyślnie wysłana. Postaramy się odpowiedzieć jak najszybciej. Jednocześnie zachęcamy do kontaktu telefonicznego. Dziekujemy!
+						  </div>
+                      </div>
+                      <div submit-error="" class="mbr-col-sm-12 mbr-col-md-12">
+					      
+                          Failed! {{error}}
+						  
+                      </div>
                     </div>
                 </form>
             </div>
